@@ -1,20 +1,12 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿
+@{
+    ViewData["Title"] = "Form Data capture using ViewData";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p><a href="Home/StudentView">Student Data as ContentView</a></p>
-    <p><a href="Home/StudentList">Student Data as PartialView</a></p>
-
-
-    <p><a href="Home/ViewBagForm">View Bag Form to Submit</a></p>
-    <p><a href="Home/TempDataSubmit">No implemented - Temp Data Form to Submit</a></p>
-</div>
 <div class="container">
     <div class="row">
         <div class="col-sm-6">
-            <h4>Form Data capture using ViewData</h4><br />
+            <h2>Form Data capture using ViewData</h2><br/>
 
             <form action="/Home/ViewDataSubmit" method="post">
                 <div class="row">
